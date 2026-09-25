@@ -39,7 +39,8 @@ Un solo archivo HTML con CSS y JavaScript inline, sin backend. Datos en localSto
 - Mis packs: compras, pagos en verificación, packs publicados. Visor con marca de agua.
 - Vender: formulario en 4 pasos (datos del curso, contenido, verificación de nota, declaración).
 - Reglas: políticas, datos personales y Libro de Reclamaciones.
-- Diseño: estilo cuaderno cuadriculado, acento resaltador amarillo, tipografías Bricolage Grotesque
+- Diseño: minimalista y formal (pensado para generar confianza, sin aspecto de "cuaderno"),
+  tarjetas limpias con sombra sutil, acentos de color moderados, tipografías Bricolage Grotesque
   y Atkinson Hyperlegible, modo claro y oscuro, pensado primero para celular.
 
 ## Próximo objetivo
