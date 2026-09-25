@@ -12,6 +12,7 @@
   --paper:#F7F8FA; --ink:#16213A; --ink2:#5B6478; --line:#E3E6EC;
   --card:#FFFFFF; --hl:#F4C744; --hlbg:#FDF1D2; --hlink:#7A5B00; --blue:#2148C7; --blueink:#FFFFFF;
   --green:#1E8E5A; --greenbg:#E3F5EC; --red:#C8412F; --redbg:#FCEAE7; --amber:#9A6B00; --amberbg:#FFF4D1;
+  --dot:#C7D1E8; --wash:#EEF2FC;
   --shadow:0 1px 2px rgba(22,33,58,.06),0 1px 1px rgba(22,33,58,.04);
   --shadow-md:0 4px 14px rgba(22,33,58,.08);
   box-sizing:border-box;
@@ -23,6 +24,7 @@
     --paper:#12172A; --ink:#EAEDF5; --ink2:#9BA3B8; --line:#293049;
     --card:#1A2036; --hl:#E8CE3F; --hlbg:#332A0E; --hlink:#F2CE5C; --blue:#6E8FFF; --blueink:#0E1422;
     --green:#4CC38A; --greenbg:#15302A; --red:#FF8A78; --redbg:#3A1E1B; --amber:#F2C24B; --amberbg:#352A0E;
+    --dot:#28304A; --wash:#161D33;
     --shadow:0 1px 2px rgba(0,0,0,.3); --shadow-md:0 4px 14px rgba(0,0,0,.35);
   }
 }
@@ -30,12 +32,16 @@
   --paper:#12172A; --ink:#EAEDF5; --ink2:#9BA3B8; --line:#293049;
   --card:#1A2036; --hl:#E8CE3F; --hlbg:#332A0E; --hlink:#F2CE5C; --blue:#6E8FFF; --blueink:#0E1422;
   --green:#4CC38A; --greenbg:#15302A; --red:#FF8A78; --redbg:#3A1E1B; --amber:#F2C24B; --amberbg:#352A0E;
+  --dot:#28304A; --wash:#161D33;
   --shadow:0 1px 2px rgba(0,0,0,.3); --shadow-md:0 4px 14px rgba(0,0,0,.35);
 }
 *,*::before,*::after{box-sizing:inherit}
 html{scroll-padding-top:env(safe-area-inset-top,0px)}
 body{
   margin:0; color:var(--ink); background-color:var(--paper);
+  background-image:radial-gradient(circle,var(--dot) 1.2px,transparent 1.2px),linear-gradient(180deg,var(--wash),transparent 420px);
+  background-size:24px 24px,100% 100%;
+  background-attachment:fixed;
   font:16px/1.55 "Atkinson Hyperlegible",system-ui,-apple-system,"Segoe UI",sans-serif;
   padding-bottom:84px;
 }
