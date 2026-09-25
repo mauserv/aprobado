@@ -27,7 +27,7 @@ de tutorías (Tutor Express Universitario), que podría integrarse después como
 - Libro de Reclamaciones virtual (obligatorio en Perú).
 - Las reseñas evalúan el pack, no al profesor.
 
-## Prototipo actual: `aprobado.html`
+## Prototipo actual: `index.html` (antes `aprobado.html`, renombrado para Cloudflare Workers)
 Un solo archivo HTML con CSS y JavaScript inline, sin backend. Datos en localStorage (clave `aprobado:v1`).
 - Explorar: catálogo con búsqueda y filtro por universidad (libre, sin cuenta).
 - Detalle del pack: contenido, vista previa gratuita, comprar, denunciar.
